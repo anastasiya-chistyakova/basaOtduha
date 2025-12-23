@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_a831f67_f6c8_4cc1_a60a_23ed5ac5cc21">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Добавление услуги"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#F0E9E9"/>
+
+        <EditText
+            android:id="@+id/etServiceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Название услуги"
+            android:textColorHint="#FDFDFD"/>
+
+        <EditText
+            android:id="@+id/etServicePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Цена (₽)"
+            android:inputType="number"
+            android:textColorHint="#FDFDFD"/>
+
+        <Button
+            android:backgroundTint="#F8CF7E"
+            android:id="@+id/btnSaveService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Сохранить" />
+    </LinearLayout>
+</ScrollView>

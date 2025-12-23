@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_a831f67_f6c8_4cc1_a60a_23ed5ac5cc21"
+    android:orientation="vertical">
+
+    <Button
+        android:backgroundTint="#F8CF7E"
+        android:id="@+id/btnAddBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить бронь" />
+
+    <ListView
+        android:id="@+id/listBookings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
